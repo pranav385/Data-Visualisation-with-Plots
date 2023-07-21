@@ -89,9 +89,9 @@ st.header('4. Histogram')
 
 st.subheader("4.1 ")
 
-x1 = np.random.randn(200)
+x1 = np.random.randn(200)-2
 x2 = np.random.randn(200)
-x3 = np.random.randn(200)
+x3 = np.random.randn(200)+2
 
 hist_data = [x1,x2,x3]
 group_labels=["Group - 1","Group - 2","Group - 3"]
